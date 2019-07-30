@@ -21,4 +21,4 @@ end
 email_addresses = "john@doe.com, person@somewhere.org"
 parser = EmailParser.new(email_addresses)
  
-parser.parse
+puts parser.parse
