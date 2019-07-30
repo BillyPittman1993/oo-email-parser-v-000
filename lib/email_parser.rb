@@ -12,8 +12,9 @@ class EmailParser
     @emails = emails 
   end
   
-  def parse 
-    self
+  def parse
+  @emails.split(/,\s/)
+end
     
 end
 
